@@ -1,4 +1,4 @@
-package caderno.agricultor.api.bees.infra;
+package caderno.agricultor.api.bees.infra.seguranca;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.http.HttpMethod;
