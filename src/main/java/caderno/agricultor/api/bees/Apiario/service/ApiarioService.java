@@ -7,6 +7,7 @@ import caderno.agricultor.api.bees.Apiario.repository.ApiarioRepository;
 import caderno.agricultor.api.bees.Apiario.validator.ValidadorApiario;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 import java.util.UUID;
@@ -20,6 +21,7 @@ public class ApiarioService {
     @Autowired
     private List<ValidadorApiario> validadores;
 
+    @Transactional
     public ApiarioDTOOutput criarApiario(ApiarioDTOInput dadosApiario){
         validadores.forEach(validador -> validador.validar(dadosApiario));
 
