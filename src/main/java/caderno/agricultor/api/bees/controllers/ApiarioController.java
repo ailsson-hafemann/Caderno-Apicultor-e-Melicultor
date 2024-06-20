@@ -1,8 +1,8 @@
-package caderno.agricultor.api.bees.controller;
+package caderno.agricultor.api.bees.controllers;
 
-import caderno.agricultor.api.bees.Apiario.dtos.ApiarioDTOOutput;
-import caderno.agricultor.api.bees.Apiario.dtos.ApiarioDTOInput;
-import caderno.agricultor.api.bees.Apiario.service.ApiarioService;
+import caderno.agricultor.api.bees.dtos.ApiarioDTOOutput;
+import caderno.agricultor.api.bees.dtos.ApiarioDTOInput;
+import caderno.agricultor.api.bees.services.ApiarioService;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;

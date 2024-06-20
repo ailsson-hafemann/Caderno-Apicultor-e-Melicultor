@@ -1,6 +1,6 @@
-package caderno.agricultor.api.bees.Apiario.repository;
+package caderno.agricultor.api.bees.repository;
 
-import caderno.agricultor.api.bees.Apiario.Entity.ApiarioEntity;
+import caderno.agricultor.api.bees.entities.ApiarioEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.UUID;

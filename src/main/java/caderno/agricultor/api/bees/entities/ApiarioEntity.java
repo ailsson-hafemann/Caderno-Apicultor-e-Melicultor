@@ -1,6 +1,6 @@
-package caderno.agricultor.api.bees.Apiario.Entity;
+package caderno.agricultor.api.bees.entities;
 
-import caderno.agricultor.api.bees.Apiario.dtos.ApiarioDTOInput;
+import caderno.agricultor.api.bees.dtos.ApiarioDTOInput;
 import jakarta.persistence.*;
 import lombok.*;
 

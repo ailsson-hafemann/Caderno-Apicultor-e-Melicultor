@@ -1,4 +1,4 @@
-package caderno.agricultor.api.bees.Apiario.dtos;
+package caderno.agricultor.api.bees.dtos;
 
 import jakarta.validation.constraints.NotBlank;
 
